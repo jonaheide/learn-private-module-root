@@ -12,3 +12,13 @@ variable "name" {
   description = "Your name to attach to the webapp address."
   type        = string
 }
+
+variable "AWS_SECRET_ACCESS_KEY" {
+  description = "AWS keys"
+  type        = string
+}
+
+variable "AWS_ACCESS_KEY_ID" {
+  description = "AWS keys"
+  type        = string
+}
